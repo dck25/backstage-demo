@@ -2,6 +2,8 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: demo-app3
+  annotations:
+    jira/project-key: BBSEC
   description: An example of a Backstage application.
   # Example for optional annotations
   # annotations:
@@ -12,5 +14,4 @@ spec:
   owner: john@example.com
   lifecycle: experimental
 metadata:
-  annotations:
-    jira/project-key: BBSEC
+
