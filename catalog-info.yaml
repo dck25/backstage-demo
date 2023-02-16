@@ -3,7 +3,7 @@ kind: Component
 metadata:
   name: demo-app3
   annotations:
-    jira/project-key: B2BSEC
+    jira/project-key: BBSEC
   description: An example of a Backstage application.
 spec:
   type: website
