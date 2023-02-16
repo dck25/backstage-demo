@@ -3,12 +3,8 @@ kind: Component
 metadata:
   name: demo-app3
   annotations:
-    jira/project-key: BBSEC
+    jira/project-key: B2BSEC
   description: An example of a Backstage application.
-  # Example for optional annotations
-  # annotations:
-  #   github.com/project-slug: backstage/backstage
-  #   backstage.io/techdocs-ref: dir:.
 spec:
   type: website
   owner: john@example.com
